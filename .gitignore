@@ -205,3 +205,13 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+# IDE
+.idea/
+__pycache__/
+
+# R 相关
+.RData
+.Rhistory
+
+# 大文件（如果GitHub限制）
+*.parquet
