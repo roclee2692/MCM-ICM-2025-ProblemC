@@ -258,7 +258,7 @@ Result charts are saved in corresponding output folders:
 - Q3: `Q3支撑材料/output/`
 - Q4: `Q4支撑材料/Q4_输出/`
 
-Complete paper: [参赛论文.pdf](参赛论文.pdf)
+Complete paper:<a href="./参赛论文.pdf">参赛论文.pdf</a>
 
 ### 👥 Team Members
 
