@@ -122,7 +122,7 @@ python q4_python_all.py
 - Q3: `Q3支撑材料/output/`
 - Q4: `Q4支撑材料/Q4_输出/`
 
-markdown完整论文请查看：[Paper.pdf](Paper.pdf)
+markdown完整论文请查看：[Competition_Paper.pdf](Competition_Paper.pdf)
 
 ## 👥 团队成员
 
@@ -258,7 +258,7 @@ Result charts are saved in corresponding output folders:
 - Q3: `Q3支撑材料/output/`
 - Q4: `Q4支撑材料/Q4_输出/`
 
-Complete paper: [Paper.pdf](Paper.pdf)
+Complete paper: [Competition_Paper.pdf](Competition_Paper.pdf)
 
 ### 👥 Team Members
 
