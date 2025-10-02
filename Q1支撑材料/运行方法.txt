@@ -1,0 +1,38 @@
+在windows中如果已经配置R语言编译器，
+并将其所在路径正确添加到了系统环境变量，
+则直接双击run_all.bat文件即可
+对于python脚本 并非核心代码 仅用于数据清洗 复现直接使用虚拟环境即可
+
+否则自行安装R和Rstudio 并按照下面步骤运行代码:
+
+#在 RStudio 里“一键跑完整脚本”
+
+把 q1_gamm_all.R 和 清洗结果_Q1.xlsx 放到同一目录（比如 D:/DpanPython/C-Q1）。
+
+在 RStudio 打开 q1_gamm_all.R。
+
+设置工作目录到脚本所在处：
+Session → Set Working Directory → To Source File Location
+（这一步很关键，读表才找得到文件）
+
+点击脚本编辑器右上角的 Source 按钮（或快捷键 Ctrl + Shift + Enter）。
+
+脚本会自动安装缺失包（mgcv、gratia、rsample…），然后依次执行。
+
+控制台看到这些提示就说明顺利：
+[Q1] 拟合 Beta-GAMM ...、
+[Q1] 已导出：Q1_分组CV_指标.xlsx 等。
+
+输出文件会在当前目录生成：
+
+Q1_模型摘要.txt
+
+输出图/Q1_部分效应.png
+
+Q1_关键点_预测.xlsx
+
+Q2_等高线底图.xlsx
+
+输出图/Q2_达标概率_等高线.png
+
+Q1_分组CV_指标.xlsx

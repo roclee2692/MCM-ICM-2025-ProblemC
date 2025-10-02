@@ -1,0 +1,17 @@
+# Python 3.11.x
+numpy==1.26.4
+pandas==2.3.2
+scipy==1.11.4
+matplotlib==3.10.6
+scikit-learn==1.7.1
+openpyxl==3.1.5
+xlsxwriter==3.2.5
+
+# Q2 的核心：pyGAM + 进度条（windows 友好）
+pygam==0.9.1
+progressbar2==4.5.0
+python-utils==3.9.1
+
+# 画图/读写常用
+pillow==11.3.0
+tzdata==2025.2

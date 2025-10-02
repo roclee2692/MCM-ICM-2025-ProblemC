@@ -1,0 +1,30 @@
+#创建虚拟环境
+PowerShell 正确写法（推荐）
+
+把下面几行逐条在 PyCharm 的 Terminal（PowerShell）里执行：
+
+# 1) 到项目目录
+cd D:\DpanPython\C-Q4
+
+# 2) 新建 venv（py 可用就用 py；不行就用 python）
+python -m venv .venv
+
+# 3) 临时放开当前会话的脚本执行限制（避免“running scripts is disabled”报错）
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+
+# 4) 激活 venv（PowerShell 用 .ps1）
+.\.venv\Scripts\Activate.ps1
+
+# 5) 固定 pip 版本（可选）
+python -m pip install --upgrade "pip==25.1.1"
+
+# 6) 安装依赖（带约束文件）
+python -m pip install -r .\requirements_q4.txt
+
+
+小检查：
+py -V 或 python -V 看谁能用；
+Get-ExecutionPolicy 看当前策略；如果仍被拦，先执行上面的 Set-ExecutionPolicy 再激活。
+
+在虚拟环境中代码运行命令行
+ python q4_python_all.py
