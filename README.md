@@ -153,7 +153,7 @@ python q4_python_all.py
 
 ---
 
-## 🇺🇸 English Version
+## English Version
 
 ### Project Overview
 
