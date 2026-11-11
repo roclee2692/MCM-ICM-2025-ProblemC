@@ -1,11 +1,15 @@
-# 2025年数学建模竞赛C题解决方案 / 2025 MCM Problem C
+# 2025 全国大学生数学建模竞赛 C 题 / 2025 CUMCM Problem C
+
+> 本项目参加的是中国全国大学生数学建模竞赛（CUMCM），不是美国 MCM/ICM。仓库名称沿用历史地址。
+>
+> [参赛论文 PDF](Competition_Paper.pdf) · [Q1](Q1支撑材料/) · [Q2](Q2支撑材料/) · [Q3](Q3支撑材料/) · [Q4](Q4支撑材料/)
 
 <details>
 <summary><b>🇨🇳 点击查看中文版 / Click for Chinese Version</b></summary>
 
 ## 项目简介
 
-本仓库包含我们团队参加2025年数学建模竞赛C题的完整解决方案，包括论文、代码实现和相关数据。
+本仓库包含三人团队参加 2025 年全国大学生数学建模竞赛 C 题的论文、Q1–Q4 代码和相关数据，获得河南赛区省级一等奖。
 
 **队伍信息：**
 - 队伍编号：202516026047
@@ -37,21 +41,16 @@
 │   ├── Q4_输出/        # Q4输出结果
 │   ├── q4_python_all.py # 主程序
 │   └── ...
-├── AI工具使用详情.docx  # AI工具使用说明
-├── 参赛论文.pdf         # 最终提交论文
+├── AI 工具使用详情.docx  # AI工具使用说明
+├── Competition_Paper.pdf         # 最终提交论文
 └── README.md
 ```
 
 ## 🚀 快速开始
 
-### 方法一：一键运行（推荐）
+### 方法一：运行 Q1 的 Windows 脚本
 
-如果已在Windows系统中配置R语言编译器，并将其所在路径正确添加到系统环境变量：
-
-```bash
-# 直接双击项目根目录下的批处理文件
-run_all.bat
-```
+`Q1支撑材料/run_all.bat` 位于 Q1 目录，只运行 Q1 的 Python 清洗和 R 建模；它会创建虚拟环境并安装依赖，需要预先安装 Python 和 R。它不是 Q1–Q4 的一键运行脚本，本次未重新执行验证。
 
 ### 方法二：手动运行
 
@@ -76,7 +75,7 @@ run_all.bat
 
 ```powershell
 # 1. 进入项目目录
-cd D:\DpanPython\C-Q4
+cd .\Q4支撑材料
 
 # 2. 创建虚拟环境
 python -m venv .venv
@@ -122,7 +121,7 @@ python q4_python_all.py
 - Q3: `Q3支撑材料/output/`
 - Q4: `Q4支撑材料/Q4_输出/`
 
-markdown完整论文请查看：[Competition_Paper.pdf](Competition_Paper.pdf)
+完整论文请查看：[Competition_Paper.pdf](Competition_Paper.pdf)
 
 ## 👥 团队成员
 
@@ -158,7 +157,7 @@ markdown完整论文请查看：[Competition_Paper.pdf](Competition_Paper.pdf)
 
 ### Project Overview
 
-This repository contains our team's complete solution for Problem C of the 2025 Mathematical Contest in Modeling, including paper, code implementation, and related data.
+This repository contains our team's paper, Q1–Q4 code and related data for Problem C of the 2025 China Undergraduate Mathematical Contest in Modeling (CUMCM). The team received a provincial first prize in Henan.
 
 **Team Information:**
 - Team Number: 202516026047
@@ -190,21 +189,16 @@ This repository contains our team's complete solution for Problem C of the 2025 
 │   ├── Q4_输出/        # Q4 Output Results
 │   ├── q4_python_all.py # Main Program
 │   └── ...
-├── AI工具使用详情.docx  # AI Tool Usage Details
-├── 参赛论文.pdf         # Final Submission Paper
+├── AI 工具使用详情.docx  # AI Tool Usage Details
+├── Competition_Paper.pdf         # Final Submission Paper
 └── README.md
 ```
 
 ### 🚀 Quick Start
 
-#### Method 1: One-Click Run (Recommended)
+#### Method 1: Run the Q1 Windows script
 
-If you have configured the R language compiler on Windows and added it to system environment variables:
-
-```bash
-# Double-click the batch file in project root
-run_all.bat
-```
+`Q1支撑材料/run_all.bat` runs Q1 preprocessing and R modelling only; it creates a virtual environment and installs dependencies. Python and R are required. It does not run all four questions and was not rerun during this documentation review.
 
 #### Method 2: Manual Run
 
@@ -225,7 +219,7 @@ Virtual environment setup (using Q4 as example):
 
 ```powershell
 # 1. Navigate to project directory
-cd D:\DpanPython\C-Q4
+cd .\Q4支撑材料
 
 # 2. Create virtual environment
 python -m venv .venv
